@@ -24,8 +24,8 @@ def business_days_of_month(today: Date.today)
 end
 
 if __FILE__ == $0
-  if business_days_of_month.last.today?
+  if business_days_of_month.first.today?
     notifier = Slack::Notifier.new ENV["INVOICE_REMINDER_WEBHOOK_URL"]
-    notifier.ping "今日は最終営業日です。請求書を提出しましょう！"
+    notifier.ping "今日は月初の営業日です。請求書を提出しましょう！"
   end
 end
