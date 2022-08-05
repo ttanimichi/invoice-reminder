@@ -4,6 +4,15 @@ The best way to remember to send invoices at the last business day of the month.
 
 See also: https://
 
+## Usage
+
+You need to install Ruby at first. And, then:
+
+```
+$ bundle install
+$ bundle ex ruby main.rb
+```
+
 ## My cron config
 
 ```
