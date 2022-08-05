@@ -13,15 +13,6 @@ $ bundle install
 $ bundle ex ruby main.rb
 ```
 
-## My cron config
-
-```
-$ crontab -l
-
-MAILTO=""
-45 11 * * * /usr/bin/ruby /home/ubuntu/invoice_reminder/main.rb
-```
-
 ## Environment variables
 
 You need to set Slack's WEBHOOK_URL as the value of an environment variable `INVOICE_REMINDER_WEBHOOK_URL`
@@ -37,6 +28,15 @@ To get the Slack's WEBHOOK_URL you need:
 2. choose your team, press configure
 3. in configurations press add configuration
 4. choose channel, press "Add Incoming WebHooks integration"
+
+## My cron config
+
+```
+$ crontab -l
+
+MAILTO=""
+45 11 * * * /usr/bin/ruby /home/ubuntu/invoice_reminder/main.rb
+```
 
 ## Tests
 
