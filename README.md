@@ -2,7 +2,7 @@
 
 The best way to remember to send invoices at the last business day of the month.
 
-See also: https://
+See also: https://zenn.dev/ttanimichi/articles/7a0877a771b6c3
 
 ## Usage
 
